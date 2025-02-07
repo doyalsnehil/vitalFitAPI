@@ -10,11 +10,22 @@
     "type": "git",
     "url": "git+ssh://git@github.com/doyalsnehil/vitalFitAPI.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "snehil",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9"
   }
 }
