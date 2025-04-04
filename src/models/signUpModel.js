@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const signUpSchema = mongoose.Schema({
+const signUpSchema =  new mongoose.Schema({
 	userName : {
 		type : String,
 		required : true
