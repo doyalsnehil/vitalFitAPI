@@ -2,6 +2,7 @@ const express = require('express');
 //sdjfadjl'H;H;FJ;FJ;JA;F;KJ;FJ
 const mongoose = require('mongoose');
 const app = express();
+//aaasdfsa
 const mongoConnect = require('./src/database/connection')
 const authRoute= require('./src/routes/userSignUpRoute')
 const userRoute = require('./src/routes/userDetailsRoute')
