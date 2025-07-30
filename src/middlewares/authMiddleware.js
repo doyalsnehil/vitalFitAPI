@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+const express = require('express');
 const { sendErrorResponse } = require("../utils/errorHandler");
 require("dotenv").config();
 
@@ -23,3 +24,4 @@ const verifyToken = function (req, res, next) {
 module.exports = {
   verifyToken,
 };
+
