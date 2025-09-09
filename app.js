@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
 const app = express();
 const mongoConnect = require('./src/database/connection')
 const authRoute= require('./src/routes/userSignUpRoute')
